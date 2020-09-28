@@ -1,0 +1,142 @@
+body {
+  /* background-color: grey; */
+  /* background: linear-gradient(180deg, #142C69 12%, rgba(20, 44, 105, 0) 62%) #008081; */
+  background: #314755;
+  /* fallback for old browsers */
+  /* background: -webkit-linear-gradient(farthest-corner, #142C69 12%, rgba(20, 44, 105, 0) 62%) #008081; */
+  background-image: -webkit-linear-gradient(to top,  #142C69 12%, rgba(20, 44, 105, 0) 62%) #008081;
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #008081 12%, rgba(20, 44, 105, 0) 62%) #142C69;
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  margin-bottom: 0;
+  margin: 0px;
+  font-family: "Karla", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  /*'David Libre', serif; */
+  text-align: center;
+  /* margin-left: 0px; */
+  /* margin-right: 0px; */
+  /* margin-top: 0px; */
+}
+h2{
+  font-weight: normal;
+}
+h3{
+    color:white;
+  }
+a:link, a:visited{
+  color: white;
+}
+ a:link:active, a:visited:active{
+  color:#11999E;
+}
+hr{
+    background-color:##008081;
+    border-style: dotted none none;
+    height: 0px;
+    width:5%;
+    border-color: #142C69;
+    border-width: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+
+/* class section */
+.top {
+  /* background-color: black; */
+  background-image: url("https://i.imgur.com/slvH5cn.jpg");
+  background-color: #cccccc;
+  height: 500px;
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding-top: 100px;
+  color: white;
+  font-family: "Karla", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+
+}
+
+.middle {
+  color: white;
+}
+
+.skills {
+  margin: 0px;
+  /* background-color: #00334e; */
+  padding: 0px;
+  border: 0px;
+}
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+
+}
+.bottom {
+  /* background-color: #132743; */
+  color: white;
+  font-size:15px;
+}
+
+.me {
+  width: 200px;
+}
+
+.btn-grad {background-image: linear-gradient(to right, #1A2980 0%, #26D0CE  51%, #1A2980  100%)}
+.btn-grad {
+  margin: 100px auto 100px auto;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #008081;
+  border-radius: 10px;
+  display: block;
+}
+
+.btn-grad:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+
+.hob{
+  text-align: right;
+}
+.tab1{
+  margin-left: auto;
+  margin-right: auto;
+}
+.r{
+  position:absolute;
+  right: 160px;
+}
+
+/* id secction */
+#skill {
+  /* es la imagen usada en la divicion */
+  width: 25%;
+  float:left;
+  padding-right:30px;
+}
+#top-p{
+  position: absolute;
+  right: 120px;
+  top:150px;
+  line-height: 4px;
+}
+#hob{
+  width: 15%;
+  float:right;
+  padding-left:10px;
+  padding-bottom: 10px;
+}
+#more-skills{
+  margin-top: 10px;
+}
